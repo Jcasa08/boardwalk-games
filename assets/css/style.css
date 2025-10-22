@@ -28,7 +28,7 @@ h3 {
     color: var(--highlight-color);
 }
 
-/*Grid Styles for testing*/
+/*Grid Styles for testing
 .containter,
 .row {
     border: 2px solid red;
@@ -36,4 +36,4 @@ h3 {
 .col-12 {
     border: 2px solid blue;
     background-color: lightblue;
-}
+}*/
