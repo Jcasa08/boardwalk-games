@@ -6,8 +6,8 @@
 :root {
     --primary-font: "inter", sans-serif;
     --secondary-font: "macondo", cursive;
-    --primary-color: #416a8e; /*blue*/
-    --secondary-color: #aa9581 /*brown*/;
+    --primary-color: #3a2620; /*brown*/
+    --secondary-color: #aa9581 /*light brown*/;
     --highlight-color: #416a8e;
     --light-higlight-color: #7a9fc2;
 }
@@ -37,3 +37,12 @@ h3 {
     border: 2px solid blue;
     background-color: lightblue;
 }*/
+
+/*Navbar Styles*/
+#nav-bar {
+    background-color: var(--primary-color);
+}
+
+#nav-bar .logo {
+    width: 30px;
+}
