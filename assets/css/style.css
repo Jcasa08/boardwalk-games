@@ -78,6 +78,12 @@ h2{
     margin-bottom:1.5rem;
 }
 
+/*Game Library Section Styles*/
+#new-games .card, #fav-games .card{
+    border:none;
+    margin-bottom:1.5rem;
+}
+
 
 /*Media Queries*/
 
