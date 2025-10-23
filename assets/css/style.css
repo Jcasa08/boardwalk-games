@@ -116,6 +116,9 @@ h2{
     color:var(--secondary-color);
 }
 
+#contact .table-dark *{
+    background-color:transparent;}
+
 /*Media Queries*/
 
 /*For devices with a minimum width of 768px (tablets and up)*/
