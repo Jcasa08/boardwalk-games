@@ -43,7 +43,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#services">Services</a>
                     </li>
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html#events">Events</a>
                     </li>
                     <li class="nav-item">
@@ -52,8 +52,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contact">Contact</a>
                     </li>
-                     <li class="nav-item">
-                        <a href="booking.html" class="btn custom-btn-filled ms-lg-3" aria-current="page" >Book Now</a>
+                    <li class="nav-item">
+                        <a href="booking.html" class="btn custom-btn-filled ms-lg-3" aria-current="page">Book Now</a>
                     </li>
                 </ul>
 
@@ -250,11 +250,60 @@
                 </div>
             </div>
         </section>
+        <section class="container">
+            <div class="row text-center">
+                <h2 class="display-6">Reserve a game</h2>
+                <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                    adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you
+                    when you arrive.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Booking inquiry</h2>
+                    <form action="success-page.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-md-8 mb-3">
+                                <label for="event-type" class="form-label">Event type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select Game</option>
+                                    <option value="Galaxy Pioneers">Galaxy Pioneers</option>
+                                    <option value="Mystic Woods">Mystic Woods</option>
+                                    <option value="Captain's Gambit">Captain's Gambit</option>
+                                    <option value="Critter Quest">Critter Quest</option>
+                                    <option value="Setters of Catan">Setters of Catan</option>
+                                    <option value="Monopoly">Monopoly</option>
+                                    <option value="Exploding Kittens">Exploding Kittens</option>
+                                    <option value="Cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="date" class="form-label">Message</label>
+                                <input type="date" id="date" name="date" class="form-control" required></input>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-btn-outline my-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer and contact-->
     <!--mt-auto added to push footer to bottom of page-->
-     <footer id="contact" class="mt-auto">
+    <footer id="contact" class="mt-auto">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
