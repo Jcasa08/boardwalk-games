@@ -143,6 +143,11 @@ h2{
 #contact .table-dark *{
     background-color:transparent;}
 
+#student-discount{
+    background-color:var(--highlight-color);
+    color:white;
+}    
+
 /*Media Queries*/
 
 /*For devices with a minimum width of 768px (tablets and up)*/
